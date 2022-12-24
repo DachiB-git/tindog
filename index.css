@@ -29,9 +29,9 @@ main {
 }
 .profile-image {
     width: 100%;
-    min-height: 80vh;
     border-radius: 15px;
     position: relative;
+    min-height: 80vh;
     
 }
 .profile-inner{
@@ -80,4 +80,12 @@ main {
 }
 .btn-wrapper img{
     display: block;
+}
+.reaction {
+    z-index: 1;
+    position: absolute;
+    width: 14.625em;
+    transform: rotate(-30deg);
+    top: 3.5em;
+    left: 1em;
 }
