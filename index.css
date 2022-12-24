@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    font-family: "Poppins", sans-serif;
+}
+/* Flex containers */
+header {
+    display: flex;
+}
+/* Header */
+header {
+  justify-content: space-between;
+  width: 95%;
+  margin: 1.25em auto;
+}
+main {
+    background: linear-gradient(180deg, #FFFFFF 0%, #F6F7FB 100%);
+    
+}
+/* Profile */
+.profile {
+    width: 95vw;
+    margin: 0 auto;
+    position: relative;
+}
+.profile-image {
+    width: 100%;
+    border-radius: 15px;
+    position: relative;
+    
+}
+.profile-inner{
+    min-height: 80vh;
+    /* overflow: hidden; */
+}
+.profile h1 {
+    margin: 0;
+}
+.profile-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    font-weight: 600;
+    color: #F8F8F8;
+    position: absolute;
+    left: 1.25em;
+    bottom: 1.25em;
+}
+.profile-bio {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #B7B7B7;
+}
+.btn-wrapper {
+    text-align: center;
+    /* margin-top: 1em; */
+}
+.reject-btn, 
+.like-btn{
+ padding: 1.75rem;
+ border-radius: 50%;
+ background: #fff;
+ box-shadow: 0px 10px 20px #E9E9EA;
+ border: none;
+ margin: 1.5em 0.75em;
+}
+
+.like-btn:hover {
+    background: #DBFFF4;
+    box-shadow: 0px 10px 20px #CCF1E6;
+}
+.reject-btn:hover {
+    background: #FFE7EF;
+    box-shadow: 0px 10px 20px #EDD9DF;
+}
+.btn-wrapper img{
+    display: block;
+}
